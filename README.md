@@ -1,4 +1,4 @@
-# template
+# Apps Template
 
 
 ## Description
