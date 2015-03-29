@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title> <?= $title ?> </title>
+        <title> Aplicación </title>
 
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,16 +25,12 @@
                 <a href="http://delegacion.uc3m.es" target="_blank"> <img src="assets/img/logodele.svg"> </a>
                 <h1> <a href="/inicio"> Aplicacion </a> </h1>
                 <div id="user">
-                    <?php
-                     if($user) { ?>
-                        <span>Hola, <?= $user->cn; ?> </span>
-                        <a class="logout" href="inicio/logout">Salir</a>
-                    <?php } else { ?>
-                        <a href="inicio/login">Entrar</a>
-                    <?php } ?>
+                    <!-- <span>Hola, Nombre Apellido Apellido </span>
+                    <a class="logout" href="inicio/logout">Salir</a> -->
+                    <a href="inicio/login">Entrar</a>
                 </div>
 
             </div>
         </header>
 
-        <div class="main <?php echo isset($section) ? $section : '' ?> ">
+        <div class="main">
